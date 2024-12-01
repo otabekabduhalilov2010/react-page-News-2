@@ -1,0 +1,102 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.card {
+    border: 2px solid #333;
+    background:  #333;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+
+.Like {
+    display: flex;
+    gap: 5px;
+    
+    button {
+        border-radius: 10px;
+        height: 40px;
+        margin: 10px;
+        border: none;
+        background: #333;
+        font-size: 20px;
+        
+        
+
+        &:hover {
+                transform: scale(1);
+                transition: 0.5s;
+
+                transform: scale(1.2);
+                background: white;
+                transition: 0.5;
+        }
+    }
+
+}
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #333;
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+.wrapper {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  
+  input {
+    padding: 10px;
+    background: #333;
+    
+  }
+  button {
+    background: #333;
+    padding: 10px;
+    color: white;
+    border: 2px solid #fdf7f7;
+  }
+  
+  }
+  
+  
+  
